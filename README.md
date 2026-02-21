@@ -1,2 +1,13 @@
-# python-budget-tracker
-My solution to the FreeCodeCamp Budget App project.   This one pushed me hard — especially the strict formatting tests — but I learned a ton about debugging, OOP, and building ASCII charts in Python.
+# FreeCodeCamp Budget App
+
+This project is part of the FreeCodeCamp Scientific Computing with Python certification.  
+It implements a Category class and a spend chart generator that visualizes spending across categories.
+
+## Skills demonstrated
+- Python classes and OOP
+- Data structures (lists, dictionaries)
+- String formatting and ASCII chart generation
+- Debugging and passing strict automated tests
+
+## Files
+- `budget.py` — full project code
