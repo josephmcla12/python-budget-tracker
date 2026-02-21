@@ -1,18 +1,41 @@
-# FreeCodeCamp Budget App
+# Python Budget Tracker
 
-This project is part of the FreeCodeCamp Scientific Computing with Python certification.  
-It implements a Category class and a spend chart generator that visualizes spending across categories.
+A Python project built as part of the FreeCodeCamp **Scientific Computing with Python** certification.  
+This program models budget categories, tracks deposits and withdrawals, and generates a spend chart that visualises how money is allocated across categories.
 
-## Skills demonstrated
-- Python classes and OOP
-- Data structures (lists, dictionaries)
-- String formatting and ASCII chart generation
-- Debugging and passing strict automated tests
+## 📌 Features
 
-## Files
-- `budget.py` — full project code
+- Create budget categories (e.g., Food, Business, Entertainment)
+- Record deposits, withdrawals, and transfers between categories
+- Automatically calculate balances
+- Validate transactions with fund checks
+- Generate a vertical ASCII spend chart showing percentage spent per category
+- Clean, readable object‑oriented design
 
-## Testing
+---
+
+## 🧩 How It Works
+
+The project includes:
+
+### **`Category` class**
+Handles:
+- Deposits  
+- Withdrawals  
+- Transfers  
+- Balance tracking  
+- Ledger formatting  
+
+### **`create_spend_chart(categories)`**
+Generates a text‑based bar chart showing the percentage of spending per category, rounded down to the nearest 10%.
+
+---
+
+## ▶️ Example Usage
+
+To test the project, you can create a separate file (e.g., `test.py`) and run:
+
+```python
 from budget import Category, create_spend_chart
 
 food = Category("Food")
